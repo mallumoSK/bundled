@@ -4,7 +4,7 @@ plugins {
     id 'kotlin-ksp' version "$ksp_version"
 }
 
-apply from: "../ksp.gradle"
+apply from: 'https://raw.githubusercontent.com/mallumoSK/bundled/master/ksp.gradle'
 
 android {
     compileSdkVersion 30
@@ -48,4 +48,4 @@ dependencies {
     /**/
     ksp "tk.mallumo:bundled:$bundled_version"
 }
-ksp.arg("DO-NOT-MODIFY-THIS-ROW", "1599838209031")
+ksp.arg("DO-NOT-MODIFY-THIS-ROW", "1599842842295")

@@ -1,1 +1,4 @@
 /build
+/src/main/ksp/tk/mallumo/bundled/BundledExampleClass.kt
+/src/main/ksp/tk/mallumo/bundled/BundledSampleParent.kt
+/src/main/ksp/tk/mallumo/bundled/BundledSampleChild.kt

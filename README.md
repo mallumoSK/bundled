@@ -157,7 +157,7 @@ plugins {
     id 'kotlin-ksp' version "1.4.0-rc-dev-experimental-20200828"
 }
 
-apply from: "../ksp.gradle"
+apply from: 'https://raw.githubusercontent.com/mallumoSK/bundled/master/ksp.gradle'
 
 dependencies {
     ksp "tk.mallumo:bundled:$bundled_version"
